@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="demo"></p>
+
+    <p id="demo2"></p>
+
+    <script>
+      x = 5; // Assign 5 to x
+
+      elem = document.getElementById("demo"); // Find an element
+      elem.innerHTML = x; // Display x in the element
+
+      var x; // Declare x
+    </script>
+
+    <script>
+      var x; // Declare x
+      x = 5; // Assign 5 to x
+
+      elem = document.getElementById("demo2"); // Find an element
+      elem.innerHTML = x; // Display x in the element
+    </script>
+
+    <button onclick="this.style.display='none'">Click to Remove Me!</button>
+  </body>
+</html>
